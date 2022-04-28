@@ -1,0 +1,12 @@
+name: Hello, world!
+on: push
+
+jobs:
+  bulid:
+    name: Greeting
+    runs-on: ubuntu-latest
+    steps: 
+    - run: echo "Hello, World!"
+    
+    
+    
